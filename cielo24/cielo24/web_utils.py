@@ -1,9 +1,8 @@
 # encoding: utf-8
 from __future__ import unicode_literals
 
-from httplib import HTTPSConnection
-from urllib import urlencode
-from urlparse import urlparse
+from http.client import HTTPSConnection
+from urllib.parse import urlencode
 import json
 from logging import getLogger
 
